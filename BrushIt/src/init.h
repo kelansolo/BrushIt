@@ -23,9 +23,9 @@ const byte interruptPin4 = 19;
 
 volatile byte state = LOW;
 
-Servo MPServo;
+// Servo MPServo;
 
-TMC26XStepper tmc26XStepper = TMC26XStepper(STEPPER_STEPS, TMC2660_CS_PIN,TMC2660_DIR_PIN
-                                           ,TMC2660_STEP_PIN,STEPPER_CURRENT, TMC2660_RESISTOR);
+// TMC26XStepper tmc26XStepper = TMC26XStepper(STEPPER_STEPS, TMC2660_CS_PIN,TMC2660_DIR_PIN
+                                          //  ,TMC2660_STEP_PIN,STEPPER_CURRENT, TMC2660_RESISTOR);
 
 #endif

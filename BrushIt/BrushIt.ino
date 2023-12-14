@@ -1,7 +1,7 @@
-#include <TMC26XStepper.h>
-#include <Servo.h>
+// #include <TMC26XStepper.h>
+// #include <Servo.h>
 
-#include "init.h"
+#include "src/init.h"
 
 void setup() {
     // Your setup code here
