@@ -1,5 +1,5 @@
 #include <SPI.h>
-#include <TMC26XStepper.h>
+#include "BrushIt/src/TMC26XStepper.h"
 #include <Servo.h>
 
 #define STEPPER_STEPS             200 // Full Turn
@@ -104,7 +104,7 @@ void loop() {
   digitalWrite(VIBRATOR_MOTOR_PIN, HIGH);
   delay(2000);
   digitalWrite(VIBRATOR_MOTOR_PIN, LOW);
-  delay(2000);
+  
 
   Serial.println("Testing Toothpaste Motor");
   digitalWrite(TOOTHPASTER_MOTOR_PIN, HIGH);
