@@ -1,0 +1,3 @@
+[submodule "BrushIt/src/TMC26XStepper"]
+	path = BrushIt/src/TMC26XStepper
+	url = https://github.com/interactive-matter/TMC26XStepper
